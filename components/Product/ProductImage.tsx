@@ -130,24 +130,19 @@ export const ProductImageDesktop = ({
     setProductImg(newActive);
   };
 
+  const activeImg = productImg.filter((el) => el.isActive);
+
   return (
     <div className="hidden md:grid gap-8 place-items-center">
       <div>
-        {productImg.map((el) => {
-          if (el.isActive) {
-            return (
-              <Image
-                key={el.id}
-                src={el.img}
-                width={460}
-                height={460}
-                alt=""
-                className="object-contain rounded-lg cursor-pointer"
-                onClick={handleLightbox}
-              />
-            );
-          }
-        })}
+        <Image
+          src={activeImg[0].img}
+          width={460}
+          height={460}
+          alt=""
+          className="object-contain rounded-lg cursor-pointer"
+          onClick={handleLightbox}
+        />
       </div>
       <div className="flex gap-10">
         {productImg.map((el) => (

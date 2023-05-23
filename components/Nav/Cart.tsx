@@ -50,7 +50,12 @@ const Cart = () => {
                   </p>
                 </div>
                 <button className="ml-auto" onClick={clearCart}>
-                  <img src="/images/icon-delete.svg" alt="" />
+                  <Image
+                    src={"/images/icon-delete.svg"}
+                    alt=""
+                    width={14}
+                    height={16}
+                  />
                   <span className="sr-only">clear cart</span>
                 </button>
               </div>
