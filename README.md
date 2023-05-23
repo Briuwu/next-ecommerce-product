@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Briuwu/next-ecommerce-product](https://github.com/Briuwu/next-ecommerce-product)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://briuwu-ecommerce-product.vercel.app/](https://briuwu-ecommerce-product.vercel.app/)
 
 ## My process
 
