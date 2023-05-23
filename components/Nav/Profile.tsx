@@ -8,7 +8,7 @@ const Profile = () => {
         src={"/images/image-avatar.png"}
         width={100}
         height={100}
-        alt="profile picture"
+        alt=""
         className="object-contain w-8 md:w-12 aspect-square"
       />
       <span className="sr-only">Profile Picture</span>
