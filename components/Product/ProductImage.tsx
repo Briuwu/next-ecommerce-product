@@ -160,6 +160,7 @@ export const ProductImageDesktop = ({
                 el.isActive ? " opacity-50 border-orange" : ""
               } object-contain w-[5.25rem] rounded-lg`}
             />
+            <span className="sr-only">Product Image</span>
           </button>
         ))}
       </div>
